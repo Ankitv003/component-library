@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import "./badge.css";
 const Badges = ({
   children = "badge",
   color = "green",
@@ -6,7 +7,7 @@ const Badges = ({
   style,
 }) => {
   return (
-    <div className="badge">
+    <div className="badge" >
       <span className="badge-text">{children}</span>
     </div>
   );
