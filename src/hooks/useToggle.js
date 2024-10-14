@@ -1,4 +1,3 @@
-import React from "react";
 import useEffectOnUpdate from "./useEffectOnUpdate";
 
 export default function useToggle({

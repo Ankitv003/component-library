@@ -7,7 +7,7 @@ const Badges = ({
   style,
 }) => {
   return (
-    <div className="badge" >
+    <div className="badge" style={style}>
       <span className="badge-text">{children}</span>
     </div>
   );

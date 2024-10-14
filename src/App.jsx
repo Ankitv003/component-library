@@ -5,7 +5,15 @@ import Testimonials from "./components/Testimonials/Testimonials";
 function App() {
   return (
     <>
-      <Badges color={}/>
+      <Badges
+        color="yellow"
+        variant="square"
+        style={{
+          fontSize: "1rem",
+          padding: "4px 8px",
+          backgroundColor: "green",
+        }}
+      />
       <Banners />
       <Cards />
       <Testimonials />
