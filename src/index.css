@@ -187,3 +187,16 @@ button.button-danger {
 .box.filled {
   background-color: blue;
 }
+
+/* 
+MARK: Badges
+*/
+
+.badge-square {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge-pill {
+  /* display: flex; */
+}

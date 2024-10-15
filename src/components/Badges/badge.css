@@ -1,9 +1,54 @@
-.badge-text {
-  color: #1a1a1a;
+.badge {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
-
 .pill {
+  padding: 1em;
+  border-radius: 20px;
 }
 
 .square {
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.red {
+  color: #991b1b;
+  background-color: #fee2e2;
+}
+
+.yellow {
+  color: #92400e;
+  background-color: #fef3c7;
+}
+
+.green {
+  color: #065f46;
+  background-color: #d1fae5;
+}
+
+.blue {
+  color: #1e40af;
+  background-color: #dbeafe;
+}
+
+.indigo {
+  color: #3730a3;
+  background-color: #e0e7ff;
+}
+
+.purple {
+  color: #5b21b6;
+  background-color: #ede9fe;
+}
+
+.pink {
+  color: #9d174d;
+  background-color: #fce7f3;
+}
+
+.gray {
+  background-color: #f3f4f6;
+  color: #1f2937;
 }
