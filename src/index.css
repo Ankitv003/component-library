@@ -74,8 +74,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 10px;
-  display: flex;
-  justify-content: center;
+
   font-family: Inter;
 }
 
@@ -192,11 +191,15 @@ button.button-danger {
 MARK: Badges
 */
 
-.badge-square {
+.badge-square-div {
   display: flex;
-  flex-direction: column;
 }
-
+.badge-square {
+  width: 100%;
+}
+.badge-pill-div {
+  display: flex;
+}
 .badge-pill {
-  /* display: flex; */
+  width: 100%;
 }

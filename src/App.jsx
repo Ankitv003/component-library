@@ -18,22 +18,26 @@ function App() {
   return (
     <>
       <h2>Badges</h2>
-      {variantArray.map((variantItem) => {
-        return (
-          <div key={uid()} className="badge-square">
-            <Badges shape="square" variant={variantItem} />
-            <br />
-          </div>
-        );
-      })}
-      {variantArray.map((variantItem) => {
-        return (
-          <div key={uid()} className="badge-pill">
-            <Badges shape="pill" variant={variantItem} />
-            <br />
-          </div>
-        );
-      })}
+      <div className="badge-square-div">
+        {variantArray.map((variantItem) => {
+          return (
+            <div key={uid()} className="badge-square">
+              <Badges shape="square" variant={variantItem} />
+              <br />
+            </div>
+          );
+        })}
+      </div>
+      <div className="badge-pill-div">
+        {variantArray.map((variantItem) => {
+          return (
+            <div key={uid()} className="badge-pill">
+              <Badges shape="pill" variant={variantItem} />
+              <br />
+            </div>
+          );
+        })}
+      </div>
 
       <Banners />
       <Cards />
