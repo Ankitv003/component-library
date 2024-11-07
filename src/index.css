@@ -78,6 +78,13 @@ body {
   font-family: Inter;
 }
 
+.component-title {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+}
+.main-text {
+  text-align: center;
+}
 .star {
   height: 30px;
   width: 30px;

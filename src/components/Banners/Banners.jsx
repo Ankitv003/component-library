@@ -1,6 +1,10 @@
 import "./Banners.css";
-const Banners = () => {
-  return <h1>Banner Component!</h1>;
+const Banners = ({ variant, children }) => {
+  return (
+    <div className={`banner ${variant}`}>
+      <span className="banner-text">{children}</span>
+    </div>
+  );
 };
 
 export default Banners;

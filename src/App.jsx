@@ -15,9 +15,11 @@ function App() {
     "purple",
     "pink",
   ];
+  let colorArray = ["red", "yellow", "green", "blue"];
   return (
     <>
-      <h2>Badges</h2>
+      <h2 className="component-title main-text">Badges</h2>
+      <h2 className="component-title">Squares</h2>
       <div className="badge-square-div">
         {variantArray.map((variantItem) => {
           return (
@@ -28,6 +30,7 @@ function App() {
           );
         })}
       </div>
+      <h2 className="component-title">Pills</h2>
       <div className="badge-pill-div">
         {variantArray.map((variantItem) => {
           return (
@@ -38,8 +41,16 @@ function App() {
           );
         })}
       </div>
-
-      <Banners />
+      <h2 className="component-title main-text">Banners</h2>
+      {colorArray.map((colorItem) => {
+        return (
+          <div key={uid()} className="banners">
+            <Banners variant={colorItem} />
+            <br />
+          </div>
+        );
+      })}
+      {/* <Banners /> */}
       <Cards />
       <Testimonials />
     </>
