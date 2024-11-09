@@ -15,7 +15,7 @@ function App() {
     "purple",
     "pink",
   ];
-  let colorArray = ["red", "yellow", "green", "blue"];
+  let colorArray = ["green", "yellow", "red", "blue"];
   return (
     <>
       <h2 className="component-title main-text">Badges</h2>
