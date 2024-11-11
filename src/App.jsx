@@ -42,6 +42,7 @@ function App() {
         })}
       </div>
       <h2 className="component-title main-text">Banners</h2>
+      <h2 className="component-title">Multi-Line</h2>
       {colorArray.map((colorItem) => {
         return (
           <div key={uid()} className="banners">
