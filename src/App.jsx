@@ -51,6 +51,15 @@ function App() {
           </div>
         );
       })}
+      <h2 className="component-title">Single-Line</h2>
+      {colorArray.map((colorItem) => {
+        return (
+          <div key={uid()} className="banners">
+            <Banners variant={colorItem} />
+            <br />
+          </div>
+        );
+      })}
       {/* <Banners /> */}
       <Cards />
       <Testimonials />
