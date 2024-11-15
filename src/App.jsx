@@ -5,6 +5,7 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import { uid } from "uid";
 
 function App() {
+  let status = ["success", "warning", "error", "neutral"];
   let variantArray = [
     "gray",
     "red",
