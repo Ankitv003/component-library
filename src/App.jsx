@@ -3,6 +3,7 @@ import Banners from "./components/Banners/Banners";
 import Cards from "./components/Cards/Cards";
 import Testimonials from "./components/Testimonials/Testimonials";
 import { uid } from "uid";
+import Tooltips from "./components/Tooltips/Tooltips";
 
 function App() {
   let status = ["success", "warning", "error", "neutral"];
@@ -65,6 +66,7 @@ function App() {
       <Cards />
       <Cards />
       <Testimonials />
+      <Tooltips />
     </>
   );
 }
