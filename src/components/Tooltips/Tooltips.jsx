@@ -1,3 +1,4 @@
+import "./Tooltips.css";
 const Tooltips = () => {
   return (
     <div className="tooltip">
