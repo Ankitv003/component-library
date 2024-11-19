@@ -1,3 +1,4 @@
+import "./Toasts.css"
 const Toasts = () => {
   return (
     <div className="toast-container">
