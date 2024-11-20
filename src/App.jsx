@@ -69,6 +69,7 @@ function App() {
       <Cards />
       <h2 className="component-title main-text">Testimonials</h2>
       <Testimonials />
+      <Testimonials />
       <h2 className="component-title main-text">Tooltips</h2>
       <Tooltips />
       <h2 className="component-title main-text">Toasts</h2>
