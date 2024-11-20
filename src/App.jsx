@@ -64,10 +64,14 @@ function App() {
         );
       })}
       {/* <Banners /> */}
+      <h2 className="component-title main-text">Cards</h2>
       <Cards />
       <Cards />
+      <h2 className="component-title main-text">Testimonials</h2>
       <Testimonials />
+      <h2 className="component-title main-text">Tooltips</h2>
       <Tooltips />
+      <h2 className="component-title main-text">Toasts</h2>
       <Toasts />
     </>
   );
