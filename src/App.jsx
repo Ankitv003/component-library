@@ -65,8 +65,10 @@ function App() {
       })}
       {/* <Banners /> */}
       <h2 className="component-title main-text">Cards</h2>
-      <Cards />
-      <Cards />
+      <div className="cards-container">
+        <Cards />
+        <Cards />
+      </div>
       <h2 className="component-title main-text">Testimonials</h2>
       <Testimonials />
       <Testimonials />

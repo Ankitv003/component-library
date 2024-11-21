@@ -218,3 +218,11 @@ MARK: Banners
 .banners {
   width: 60%;
 }
+/* 
+MARK: Cards
+*/
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+}
