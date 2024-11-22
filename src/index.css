@@ -218,6 +218,9 @@ MARK: Banners
 .banners {
   width: 60%;
 }
+.banner-component {
+  display: flex;
+}
 /* 
 MARK: Cards
 */

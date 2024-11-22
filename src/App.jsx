@@ -44,25 +44,28 @@ function App() {
           );
         })}
       </div>
-      <h2 className="component-title main-text">Banners</h2>
-      <h2 className="component-title">Multi-Line</h2>
-      {colorArray.map((colorItem) => {
-        return (
-          <div key={uid()} className="banners">
-            <Banners variant={colorItem} />
-            <br />
-          </div>
-        );
-      })}
-      <h2 className="component-title">Single-Line</h2>
-      {colorArray.map((colorItem) => {
-        return (
-          <div key={uid()} className="banners">
-            <Banners variant={colorItem} />
-            <br />
-          </div>
-        );
-      })}
+      <div className="banner-component">
+        <h2 className="component-title main-text">Banners</h2>
+
+        <h2 className="component-title">Multi-Line</h2>
+        {colorArray.map((colorItem) => {
+          return (
+            <div key={uid()} className="banners">
+              <Banners variant={colorItem} />
+              <br />
+            </div>
+          );
+        })}
+        <h2 className="component-title">Single-Line</h2>
+        {colorArray.map((colorItem) => {
+          return (
+            <div key={uid()} className="banners">
+              <Banners variant={colorItem} />
+              <br />
+            </div>
+          );
+        })}
+      </div>
       {/* <Banners /> */}
       <h2 className="component-title main-text">Cards</h2>
       <div className="cards-container">
