@@ -21,6 +21,7 @@ function App() {
   let colorArray = ["green", "yellow", "red", "blue"];
   return (
     <>
+      <h1 className="component-title main-text title">Component Library</h1>
       <h2 className="component-title main-text">Badges</h2>
       <h2 className="component-title">Squares</h2>
       <div className="badge-square-div">
